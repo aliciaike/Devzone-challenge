@@ -104,10 +104,10 @@ try:
                     print('CHECKOUT')
                     print('_________________________________________________________________________')
                     if total_cost > wallet:
-                        print("Oops Insufficent Funds")
+                        print("Sorry, Insufficent Funds")
                         print(f'Available Balance: ${wallet}')
                     elif total_cost <= wallet:
-                        print("Succesful Thank you for shopping at Happy !!!")
+                        print("Succesful, Thank you for shopping at Happy !!!")
         except ValueError:
             act = input('Opps Invalid Input Enter (1) to continue or (0) to cancle:')
             if act == '1':
